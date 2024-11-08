@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("https://fonts.google.com/specimen/Outfit");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("https://fonts.google.com/specimen/Outfit");
+    font-weight: 700;
+}
+
+:root {
+    --clr--white: hsl(0, 0%, 100%);
+    --clr--slate-300: hsl(212, 45%, 89%);
+    --clr--slate-500: hsl(216, 15%, 48%);
+    --clr--slate-900: hsl(218, 44%, 22%);
+    
+    --ff-base: Outfit, sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+    --fs-300: 0.938rem;
+
+}
+
+.main-content {
+    background-color: var(--clr--white);
+}
+
+.qr-code > picture > img {
+    border-radius: 1rem;
+}
+
+.paragraphs > .title {
+    font-size: var(--fs-300);
+    font-weight: var(--fw-bold);
+    font-weight: bold;
+}
